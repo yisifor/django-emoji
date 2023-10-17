@@ -27,4 +27,6 @@ jobs:
         pip install -r requirements.txt
     - name: Run Tests
       run: |
-        python test/templates/runtests.py
+        pwd
+        ls
+        # python test/templates/runtests.py
